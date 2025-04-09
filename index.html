@@ -53,12 +53,17 @@
   bottom: 0;
   left: 0;
 }
+.fitt {
+  @media (width <= 40rem) { 
+          width: 100%;
+   }
+}
     </style>
 </head>
-<body style="background-image: url(Media/wp7179243.jpg); background-repeat: no-repeat; background-size: cover;">
+<body style="background-image: url(Media/wp7179243.jpg); background: no-repeat center center cover; ">
     
 
-<div class="backdrop-blur-sm m-auto h-96 w-3/5 text-center content ease-out transition-all duration-300 hover:scale-110 hover:rotate-5 hover:backdrop-blur-md">
+<div class="backdrop-blur-sm m-auto h-96  fitt sm:w-full md:w-full lg:w-3/5 xl:w-3/5 2xl:w-3/5 text-center content ease-out transition-all duration-300 lg:hover:scale-110 xl:hover:scale-110 2xl:hover:scale-110 lg:hover:rotate-5 xl:hover:rotate-5 2xl:hover:rotate-5 hover:backdrop-blur-md">
  <div style="height: 25px;"></div>
  <img src="Media/pfp.png" class="m-auto" style="max-width: 128px; max-height: 128px;">
  <div style="height: 15px;"></div>
